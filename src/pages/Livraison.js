@@ -4,8 +4,8 @@ import {produits} from "../datas/Produits";
 
 function Livraison() {
   return (
-    <div className="livraison">
-      <h1>Livraison</h1>
+    <div className="container">
+      <h1 className="livraison">Livraison</h1>
       <Top />
     </div>
   );
