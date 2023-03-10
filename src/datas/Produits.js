@@ -86,5 +86,13 @@ export const produits = [
     top: false,
     categorie: "boisson",
     ingredients: ["ananas", "mangue", "kiwi", "fraise"],
+  },
+  {
+    nom: "couscous",
+    details: "couscous de blé avec des petits pois, des carottes et des oeufs",
+    prix: 6.99,
+    top: true,
+    categorie: "Marocain",
+    ingredients: ["riz", "petits pois", "carottes", "oeufs"],
   }
 ]

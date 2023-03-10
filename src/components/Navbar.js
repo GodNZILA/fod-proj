@@ -1,7 +1,8 @@
 import '../styles/Navbar.css'
 function Navbar() {
   return (
-    <nav className="navbar">
+    <div className="container">
+      <nav className="navbar">
       <ul >
         <li>
           <a href="/">Home</a>
@@ -11,6 +12,7 @@ function Navbar() {
         </li>
       </ul>
     </nav>
+    </div>
   )
 
 }

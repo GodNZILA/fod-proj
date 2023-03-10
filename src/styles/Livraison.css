@@ -1,6 +1,39 @@
 .livraison{
   background-color: red;
   height: 200px;
+  width: 100auto%;
+  margin-left: 0;
+}
+
+.livraison1{
+  background-color: blue;
+  height: 200px;
   width: 100%;
-  margin-left: 20px;
+}
+
+.livraison2{
+  background-color: green;
+  height: 200px;
+  width: 100%;
+}
+
+
+.sidenav {
+  width: 30%;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 20px;
+  background: rgba(0,0,0,0.5);
+  float: rightt;
+}
+
+.menu {
+  width: 75%;
+  height: 10%;
+  position: fixed;
+  z-index: 1;
+  top: 20px;
+  background: yellow;
+  float: right;
 }

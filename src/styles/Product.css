@@ -23,3 +23,15 @@
   border: 1px solid #e6e6e6;
 
 }
+
+.xx{
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: right;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 25%;
+  height: calc(100% - 40px);
+  background-color: red;
+}
