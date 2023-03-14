@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.all {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.header {
+  width: 100%;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 4rem;
+  text-transform: uppercase;
+  color: #333;
+}
+
+.products {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+
+}
+
+.product {
+  position: relative;
+  background-color: red;
+  width: 30%;
+  height: auto;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 20px 40px;
+  border-radius: 10px;
+  transition: 0.3s;
+
+}
+
+.product:hover{
+  transform: translateY(-15px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+
+.image {
+  width: 100%;
+  height: 60%;
+  display: grid;
+  place-items: center;
+  background-image: url("../assets/Salade.jpg");
+  z-index: 99;
+}
+
+.image img {
+  width: 240px;
+}
+
+.nameprice {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nameprice h3 {
+  font-size: 2em;
+  text-transform: capitalize;
+  color: #333;
+}
+
+.nameprice span {
+  font-size: 1.5em;
+  color: #FFD700;
+}
+
+.product p {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.stars {
+  font-size: 1.3em;
+  color: #FFD700;
+}
+
+.bay {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.bay button {
+  padding: 10px 20px;
+  border-radius: 7px;
+  border: none;
+  background-color: #333;
+  color: #F2F2F2;
+  font-size: 18px;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: .5s;
+
+}
+
+.bouton {
+  background-color: #BFEAF5;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 100px;
+  font-size: 12px;
+  color: black;
+  text-transform: capitalize;
+  width: 68px;
+  text-align: center;
+  border: solid 1px;
+  height: 132px;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+.imgs{
+  padding: 5px;
+  border-radius: 50%;
+  padding-top: 8px;
+  padding-bottom: 1px;
+  margin-top: -3px;
+  border: solid 1px;
+  border-color: rgba(0, 0, 0, 0.3);
+  width: 94%;
+  height: 60%;
+}
+
+.btn-text{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  font-size: 14px;
+  text-transform: capitalize;
+  color: #333;
+}
